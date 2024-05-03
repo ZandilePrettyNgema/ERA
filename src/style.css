@@ -1,5 +1,7 @@
 body {
-  background: #efefef;
+  background: #ffffff;
+  margin: 0;
+  padding: 0;
 }
 h1 {
   color: #fff;
@@ -23,13 +25,25 @@ h1 {
 
 .navbar a {
   padding: 5px;
+  margin: 0 10px;
   text-decoration: none;
   color: #fff;
   font-size: 15px;
-  font-family: sans-serif;
+  font-family: monospace;
   font-weight: bold;
 }
-.main-page {
+.main-section {
   text-align: center;
   margin-top: 60px;
+}
+.kario-container {
+  display: flex;
+  justify-content: space-between;
+ 
+}
+.kario-container img {
+  width: 100%;
+  height: auto;
+   margin: 0 20px;
+   padding: 15px 20px;
 }
