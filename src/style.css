@@ -36,14 +36,7 @@ h1 {
   text-align: center;
   margin-top: 60px;
 }
-.kario-container {
-  display: flex;
-  justify-content: space-between;
- 
-}
-.kario-container img {
-  width: 100%;
-  height: auto;
-   margin: 0 20px;
-   padding: 15px 20px;
+.kario-container img{
+  width: 24%;
+  margin: 120px 5px;
 }
